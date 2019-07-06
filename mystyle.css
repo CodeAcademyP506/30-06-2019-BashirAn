@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    }
+.container{
+    width:60%;
+    margin:0 auto;
+    border: 1px solid gray;
+}
+button{
+    background-color:blue;
+    border-style: none;
+    font-size: 30px;
+    padding:5px 15px;
+    cursor: pointer;
+}
+#delete{
+    background-color: rgba(224, 89, 71, 0.938);
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+}
+label{
+    font-weight: bold;
+}
+input{
+    margin-bottom: 10px;
+    border-radius: 3px;
+border:1px solid gray;
+    height:20px;
+}
+select{
+    margin-bottom: 10px;  
+}
+#table{
+    width: 70%;
+}
+table{
+    width: 100%;
+     border: 1px solid gray
+}
+td,th{
+    border-bottom: 1px solid gray;
+text-align: center;
+}
+
+th:not(:last-child),td:not(:last-child){
+    border-right: 1px solid gray;
+   
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="section">
+        <div>
+            <form action="" method="get">
+                <label for="userName">
+                    Ad
+                    <input type="text" name="name" id="userName">
+                </label>
+                <br>
+                <label for="userSurname">
+                    Soyad:
+                    <input type="text" name="surname" id="userSurname">
+                </label>
+                <br>
+                <label for="userEmail">
+                    Email:
+                    <input type="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" name="email" id="userEmail">
+                </label>
+
+                <br>
+                <label for="userCity"></label>
+                <select name="city" id="userCity">
+                    <option value="0" disabled selected>Şəhərinizi seçin </option>
+                    <option value="1">Baki</option>
+                    <option value="2">Gence</option>
+                    <option value="3">Sumgayit</option>
+                    <option value="4">Quba</option>
+                    <option value="5">Lerik</option>
+                </select>
+                <br>
+                <button type="button" id="save-btn">Save</button>
+            </form>
+
+        </div>
+        <div id="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ad</th>
+                        <th>Soyad</th>
+                        <th>Email</th>
+                        <th>Şəhər</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
